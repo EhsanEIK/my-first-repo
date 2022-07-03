@@ -11,7 +11,7 @@
 }
 
 .menu {
-    background-color: rgb(34, 163, 248);
+    background-color: #00539CFF;
     height: 60px;
 }
 
@@ -22,7 +22,7 @@
 
 .menubar li {
     display: inline-block;
-    background-color: brown;
+    background-color: rgb(250, 132, 73);
     width: 80px;
     text-align: center;
     padding: 5px;
@@ -42,7 +42,7 @@
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
-    color: rgb(124, 3, 3);
+    color: rgb(250, 132, 73);
     float: left;
     margin-left: 100px;
 }
@@ -89,7 +89,7 @@ button {
 }
 
 button:hover {
-    background-color: brown;
+    background-color: rgb(250, 132, 73);
 }
 
 
@@ -99,8 +99,8 @@ button:hover {
 /* Footer design start */
 
 footer {
-    background-color: blue;
-    height: 230px;
+    background-color: #00203FFF;
+    height: 260px;
 }
 
 .footerdiv {
@@ -110,21 +110,23 @@ footer {
 .contact,
 .terms,
 .policy {
-    margin: 20px;
+    margin: 0 20px 20px 20px;
+    margin-top: 30px;
     color: white;
 }
 
 .contact h3 {
-    margin-left: 130px;
+    font-size: 25px;
+    margin-left: 120px;
 }
 
-.contact2 {
+.contactForm {
     text-align: center;
     margin-top: 10px;
     margin-left: 70px;
 }
 
-.contact2 input {
+.contactForm input {
     width: 200px;
     height: 20px;
     margin-top: 10px;
@@ -133,20 +135,24 @@ footer {
 }
 
 .terms h3 {
-    margin-left: 300px;
+    font-size: 25px;
+    margin-left: 290px;
 }
 
 .terms p {
     text-align: center;
-    margin-left: 170px;
+    margin-top: 10px;
+    margin-left: 180px;
 }
 
 .policy h3 {
-    margin-left: 250px;
+    font-size: 25px;
+    margin-left: 240px;
 }
 
 .policy p {
     text-align: center;
+    margin-top: 10px;
     margin-left: 150px;
     margin-right: 100px;
 }
@@ -159,4 +165,5 @@ footer button {
     color: white;
     font-size: 20px;
     text-align: center;
+    margin-top: 10px;
 }
